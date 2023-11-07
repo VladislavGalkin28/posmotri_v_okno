@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -35,4 +35,23 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+
+.content {
+  display: flex;
+  margin: auto;
+}
+
+.search-form {
+  align-items: center;
+  position: relative;
+  display: block;
+  gap: 40px;
+}
+
+.content__list {
+  overflow-x: scroll;
+}
+
+.content__details {
 }
