@@ -58,6 +58,10 @@ ol {
   white-space: nowrap;
 }
 
+::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .button {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
@@ -116,7 +120,6 @@ ol {
 
 .search-form {
   display: flex;
-  align-items: center;
   gap: 42px;
 }
 
@@ -136,8 +139,8 @@ ol {
 
 .search-form__label {
   display: flex;
-  width: fit-content;
   gap: 5px;
+  width: fit-content;
   align-items: center;
   cursor: pointer;
 }
@@ -218,10 +221,6 @@ ol {
   flex-direction: column;
   gap: 30px;
   align-self: baseline;
-}
-
-.content__list-item:not(:last-child) {
-  margin: 0 0 34px;
 }
 
 .content__details {
